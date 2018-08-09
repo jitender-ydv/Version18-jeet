@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/offstage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+    android:orientation="vertical"
+    tools:context=".fragment.offStageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:text="OffStage"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:alignmentMode="alignMargins"
+            android:background="@android:color/transparent"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="20dp"
+            android:rowCount="6">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/codeprixlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/textView"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/CodePrix"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/events"
+                        android:src="@drawable/codeprix" />
+
+                    <TextView
+                        android:id="@+id/CodePrixtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/artifika"
+                        android:gravity="center"
+                        android:text="Code Prix"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="16dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/coderelaylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal|center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/codeRelay"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/coderelay" />
+
+                    <TextView
+                        android:id="@+id/coderelaytxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/artifika"
+                        android:gravity="center"
+                        android:text="Code Relay"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardSubmission"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="16dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/mindblocklayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/midblock"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/mindblock" />
+
+                    <TextView
+                        android:id="@+id/midblocktxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/artifika"
+                        android:gravity="center"
+                        android:text="Mind Block"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/conWeb"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="16dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/weblayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/web"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/concevoir" />
+
+                    <TextView
+                        android:id="@+id/webtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/artifika"
+                        android:gravity="center"
+                        android:text="Concevier Le Web"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Seqlize"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="16dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/sqllayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/sequalize"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/sequelize" />
+
+                    <TextView
+                        android:id="@+id/sqltxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/artifika"
+                        android:gravity="center"
+                        android:text="Sequalize"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Gamers"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="16dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/gameslayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:id="@+id/gamerseden"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/gamerseden" />
+
+                    <TextView
+                        android:id="@+id/gamerstxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Gamer's Aden"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

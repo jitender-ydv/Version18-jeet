@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_abtversion"
+            android:icon="@drawable/ic_abt_version"
+            android:title="@string/nav_abtversion"/>
+        <item
+            android:id="@+id/nav_abttheme"
+            android:icon="@drawable/ic_abt_theme"
+            android:title="@string/nav_abttheme"/>
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/nav_map"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/nav_gallery" />
+        <item
+            android:id="@+id/nav_staffmemb"
+            android:icon="@drawable/ic_staffmember"
+            android:title="@string/nav_staffmemb"/>
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/nav_schedule"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_contact"
+                android:title="@string/nav_contactus" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/nav_feedback"/>
+        </menu>
+    </item>
+</menu>

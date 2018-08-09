@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/day0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".fragment.DayTwoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="1155dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:alignmentMode="alignMargins"
+            android:background="@android:color/transparent"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="6">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+                        <LinearLayout
+                            android:id="@+id/clb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="8dp"
+                            android:paddingBottom="8dp"
+                            android:paddingLeft="7dp"
+                            android:paddingRight="7dp"
+                            android:paddingTop="8dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="CONCEVOIR LE WEB"
+
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Creativity beyond imagination"
+                                android:textAlignment="center"
+
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="8:30 AM - 9:30 AM"
+
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : CA DEPT. LAB"
+
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+
+                        <LinearLayout
+                            android:id="@+id/inaguration"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="SEQUELIZE(Finals)"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Be a Data Digger"
+                                android:textAlignment="center"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="9:30 AM - 10:15 AM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : CA DEPT. LAB"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+                        <LinearLayout
+                            android:id="@+id/cp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="CODE PRIX(Finals)"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Decode it before your opponent does"
+                                android:textAlignment="center"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="10:15 AM - 11:15 AM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : CA DEPT. LAB"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+
+                        <LinearLayout
+                            android:id="@+id/cr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="CODE RELAY(Prilims)"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Untangling the mystery"
+                                android:textAlignment="center"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="11:15 AM - 12:00 PM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : CA DEPT. LAB"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+
+                        <LinearLayout
+                            android:id="@+id/CRF"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="CODE RELAY(Finals)"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Strategies for success"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="1:00 PM - 2:00 PM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : A13 HALL"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+                        <LinearLayout
+                            android:id="@+id/CHf"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="CODE HAMMER(Finals)"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Auction beyond action"
+                                android:textAlignment="center"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="2:00 PM - 3:00 PM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : A13 HALL"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+                        <LinearLayout
+                            android:id="@+id/tc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="THE PHOENIX"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/eventnm"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Focusing the masterpiece"
+                                android:textAlignment="center"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="3:15 PM - 4:45 PM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : A13 HALL"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_rowWeight="1"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#686152">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/frame">
+
+                        <LinearLayout
+                            android:id="@+id/PD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/artifika"
+                                android:gravity="center"
+                                android:text="PRIZE DISTRIBUTION"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="4:45 PM - 5:00 PM"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/iceland"
+                                android:gravity="center"
+                                android:text="Venue : A13 HALL"
+                                android:textColor="#FFD7C5F5"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

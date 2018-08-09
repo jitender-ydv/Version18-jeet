@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/black"
+    tools:context="com.example.abhishek.version_18.fragment.eventDescriptionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30sp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/event_logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="false"
+                android:layout_marginTop="60dp" />
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/event_logo"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:paddingTop="7dp"
+                android:text="Event"
+                android:textAlignment="center"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/artifika"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="Tagline "
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/xyz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/audiowide"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="Description  :"
+                android:textColor="#7fa87f"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#686152"
+
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_alignBottom="@id/description"
+                        android:layout_alignLeft="@id/description"
+                        android:layout_alignRight="@id/description"
+                        android:layout_alignTop="@id/description"
+                        android:src="@drawable/backgnd"/>
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+
+                        android:fontFamily="@font/iceland"
+                        android:gravity="center"
+                        android:padding="20sp"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pqr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Rules : "
+                android:textColor="#7fa87f"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#686152"
+
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_alignBottom="@id/rules"
+                        android:layout_alignLeft="@id/rules"
+                        android:layout_alignRight="@id/rules"
+                        android:layout_alignTop="@id/rules"
+                        android:src="@drawable/backgnd"/>
+                    <TextView
+                        android:id="@+id/rules"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="false"
+                        android:fontFamily="@font/iceland"
+                        android:gravity="left"
+                        android:padding="20sp"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

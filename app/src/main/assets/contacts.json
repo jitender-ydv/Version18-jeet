@@ -1,0 +1,71 @@
+
+[
+  {
+    "category" : "For Pass Key",
+    "data" : [
+      {
+        "name" : "ABC",
+        "image_url" : "http://ia.media-imdb.com/images/M/MV5BMjA2NTE0NzkyMF5BMl5BanBnXkFtZTgwMjAwMzg5NjE@._V1._SY140_.jpg",
+        "phone_no" : "XXXXXXXXXXXX",
+        "emai_id" : "bsdijkdb@gmail.com"
+      },
+      {
+        "name" : "XYZ",
+        "image_url" : "http://ia.media-imdb.com/images/M/MV5BMTUzMTA3NjM4MV5BMl5BanBnXkFtZTcwNjk1NTAyMg@@._V1._SY140_.jpg",
+        "phone_no" : "XXXXXXXXXXXX",
+        "email_id" : "dnsjkdn@gmail.com"
+      }
+    ]
+  },
+  {
+    "category" : "Events Related Query",
+    "data" : [
+      {
+        "name" : "Swapnil Ojha",
+        "image_url" : "http://www.version18.in/img/team/210/swapnil.jpg",
+        "phone_no" : "+91-8826825910",
+        "email_id" : "eecversion18@gmail.com"
+      },
+      {
+        "name" : "Abhishek Rustagi",
+        "image_url" : "http://www.version18.in/img/team/210/abhishek.jpg",
+        "phone_no" : "+91-9810019840",
+        "email_id" : "eecversion18@gmail.com"
+      }
+    ]
+  },
+  {
+    "category" : "Version Related Queries",
+    "data" : [
+      {
+        "name" : "Tanmay Yadav",
+        "image_url" : "http://www.version18.in/img/team/210/tanmay.jpg",
+        "phone_no" : "+91-8989766171",
+        "email_id" : "cccversion18@gmail.com"
+      },
+      {
+        "name" : "Mrinal Gautaum",
+        "image_url" : "http://www.version18.in/img/team/210/mrinal.jpg",
+        "phone_no" : "+91-7898491171",
+        "email_id" : "cccversion18@gmail.com"
+      }
+    ]
+  },
+  {
+    "category" : "Hospitality Queries",
+    "data" : [
+      {
+        "name" : "Vishwajit",
+        "image_url" : "http://www.version18.in/img/team/210/vishwajit.jpg",
+        "phone_no" : "+91-7047478394",
+        "email_id" : "hospy2k18@gmail.com"
+      },
+      {
+        "name" : "Mayank",
+        "image_url" : "http://www.version18.in/img/team/210/mayank.jpg",
+        "phone_no" : "+91-9993814848",
+        "email_id" : "hospy2k18@gmail.com"
+      }
+    ]
+  }
+]
